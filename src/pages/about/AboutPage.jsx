@@ -7,7 +7,7 @@ const AboutPage = () => {
   const tecnologias = [
     'Javascript', 'Node.js', 'React', 'Redux', 'Html5', 'Css', 'tailwind css', 'Bootstrap',
     'scss', 'next.js', 'sequelize', 'Angular', 'PostgreSQL', 'TypeScript', 'Mysql', 
-    'SqlServer', 'C#', 'ASP.Net Core', 'React Native', 'Spring Boot', 'Java', 'Git'
+    'SqlServer', 'C#', 'ASP.Net Core', 'React Native', 'Spring Boot', 'Java', 'Git', 'Vue'
   ];
 
   return (

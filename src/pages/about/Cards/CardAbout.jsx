@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { 
     faJs, faNodeJs, faReact, faHtml5, faCss3Alt, 
     faBootstrap, faSass, faAngular, faJsSquare, 
-    faMicrosoft, faGitAlt, faReacteurope, faJava 
+    faMicrosoft, faGitAlt, faReacteurope, faJava, 
+    faVuejs
 } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import { TbBrandRedux } from "react-icons/tb";
@@ -57,6 +58,8 @@ const getIcon = (tecnologia) => {
             return <FontAwesomeIcon icon={faJava} className="text-white" />;
         case "Git":
             return <FontAwesomeIcon icon={faGitAlt} className="text-white" />;
+        case "Vue":
+            return <FontAwesomeIcon icon={faVuejs} className="text-white" />;
         default:
             return null;
     }

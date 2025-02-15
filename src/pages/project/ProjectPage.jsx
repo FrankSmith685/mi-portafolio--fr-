@@ -6,6 +6,7 @@ import project3 from "../../assets/imagenes/food.PNG"
 import project4 from "../../assets/imagenes/dog.PNG"
 import project5 from "../../assets/imagenes/videogame.PNG"
 import project6 from "../../assets/imagenes/phone.PNG"
+import project7 from "../../assets/imagenes/project3.JPG"
 
 
 const ProjectPage = () => {
@@ -28,10 +29,17 @@ const ProjectPage = () => {
                 Desarrollé una página web para Roggman Consulting, una consultoría de recursos humanos en Alemania. El sitio web incluye secciones para la selección y reclutamiento de personal, evaluaciones, búsquedas especializadas, auditorías de inclusión, y más. Implementé funcionalidades para gestionar contacto, información de la empresa, y otros servicios. Tecnologías utilizadas: React.js, Tailwind CSS, y JavaScript.
             `,
             githubLink: 'https://github.com/FrankSmith685/nuevo/tree/main/Proyecto%20-%20Sandra%20Roggero%20Beratung',
-            demoLink: 'https://nuevo-virid.vercel.app/',
+            demoLink: 'https://roggero-beratung.de/',
             imageUrl: project2,
         },
-
+        {
+            id: 3,
+            title: 'GEOR - Panel de Administración y Facturación',
+            description: 
+                'Trabajé como Practicante Pre-Profesional Frontend en GEOR, donde implementé y creé páginas web, incluyendo un panel de administración para la gestión de blogs y un sistema de facturación para planes de usuarios y administradores. Desarrollé toda la interfaz utilizando Vue 3, Vue 2, TypeScript, y realicé la integración de APIs. También utilicé Pinia para la gestión de estado global.',
+            technologies: 'Vue 3, Vue 2, TypeScript, Pinia, APIs',
+            imageUrl: project7,
+        },
         {
             id: 3,
             title: 'Food-App',
